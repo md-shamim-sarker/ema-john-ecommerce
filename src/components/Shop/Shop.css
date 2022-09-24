@@ -1,0 +1,13 @@
+.Shop {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+
+}
+
+.Left {
+    background-color: white;
+}
+
+.Right {
+    background-color: #FF99004D;
+}
