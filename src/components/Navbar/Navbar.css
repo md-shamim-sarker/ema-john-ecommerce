@@ -1,0 +1,18 @@
+.Navbar {
+    background-color: #1C2B35;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem;
+}
+
+.Navbar a {
+    text-decoration: none;
+    color: white;
+    margin-left: 1rem;
+    transition: all ease 0.4s;
+}
+
+.Navbar a:hover {
+    color: orange;
+}
