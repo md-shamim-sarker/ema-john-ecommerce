@@ -1,10 +1,10 @@
 import React from 'react';
-import './Navbar.css';
+import './Header.css';
 import logo from '../../images/logo.svg';
 
-const Navbar = () => {
+const Header = () => {
     return (
-        <nav className='Navbar'>
+        <nav className='Header'>
             <img src={logo} alt="Logo" />
             <div>
                 <a href="./shop">Shop</a>
@@ -16,4 +16,4 @@ const Navbar = () => {
     );
 };
 
-export default Navbar;
+export default Header;
