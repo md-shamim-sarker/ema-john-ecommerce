@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <div className='footer'>
-            <p>@ Md. Shamim Sarker | 2022</p>
+            <p>Md. Shamim Sarker | 2022</p>
         </div>
     );
 };

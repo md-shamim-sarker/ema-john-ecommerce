@@ -1,15 +1,18 @@
 import React from 'react';
+import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import './App.css';
-import Footer from './components/Footer/Footer';
-import Header from './components/Header/Header';
-import Shop from './components/Shop/Shop';
+import Main from './layouts/Main';
 
 const App = () => {
+  const router = createBrowserRouter([
+    {
+      path: "/",
+      element: <Main></Main>
+    },
+  ]);
   return (
     <div className='App'>
-      <Header></Header>
-      <Shop></Shop>
-      <Footer></Footer>
+      <RouterProvider router={router}></RouterProvider>
     </div>
   );
 };

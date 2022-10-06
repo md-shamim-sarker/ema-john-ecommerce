@@ -22,12 +22,12 @@ const Cart = ({cart}) => {
             <p>Total Shipping Charge: ${shipping}</p>
             <p>Tax: ${tax}</p>
             <h4>Grand Total: ${grandTotal}</h4>
-            <div>
+            {/* <div>
                 <button className='clear-btn'>Clear Cart</button>
             </div>
             <div>
                 <button className='review-btn'>Review Order</button>
-            </div>
+            </div> */}
         </div>
     );
 };
