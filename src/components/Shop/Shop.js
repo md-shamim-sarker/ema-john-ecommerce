@@ -8,13 +8,15 @@ import './Shop.css';
 
 const Shop = () => {
     const [cart, setCart] = useState([]);
+
     const handeAddToCart = (product) => {
         const newCart = [...cart, product];
         setCart(newCart);
         addToDb(product.id);
     };
 
-    const products = useLoaderData();
+
+    const {products} = useLoaderData();
 
     return (
         <div className='Shop'>

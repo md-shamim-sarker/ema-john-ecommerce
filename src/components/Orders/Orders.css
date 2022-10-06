@@ -1,0 +1,17 @@
+.shop-container {
+    width: 80vw;
+    margin: 2rem auto;
+    display: flex;
+    column-gap: 2rem;
+}
+
+.products-container {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.cart-container {
+    width: 30vw;
+}
