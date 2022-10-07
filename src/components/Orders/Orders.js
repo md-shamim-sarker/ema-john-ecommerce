@@ -15,6 +15,7 @@ const Orders = () => {
         setCart(remaining);
         removeItem(id);
     };
+
     return (
         <div className='shop-container'>
             <div className='products-container'>
